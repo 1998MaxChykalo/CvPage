@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-md-1{
+    float: left;
+    width: 8.3%;
+}
+.col-md-2{
+    float: left;
+    width: 16.666%;
+}
+.col-md-3{
+    float: left;
+    width: 25%;
+}
+.col-md-4{
+    float: left;
+    width: 33.333%;
+}
+.col-md-5{
+    float: left;
+    width: 41.666;
+}
+.col-md-6{
+    float: left;
+    width: 50%;
+}
+.col-md-7{
+    float: left;
+    width:  58.333%;
+}
+.col-md-8{
+    float: left;
+    width:  66.666%;
+}
+.col-md-9{
+    float: left;
+    width:  75%;
+}
+.col-md-10{
+    float: left;
+    width:  83.333%;
+}
+.col-md-11 {
+    float: left;
+    width: 91.666%;
+}
+.col-md-12{
+    float: left;
+    width: 100%;
+}
+
+.col-sm-1{
+    float: left;
+    width: 8.3%;
+}
+.col-sm-2{
+    float: left;
+    width: 16.666%;
+}
+.col-sm-3{
+    float: left;
+    width: 25%;
+}
+.col-sm-4{
+    float: left;
+    width: 33.333%;
+}
+.col-sm-5{
+    float: left;
+    width: 41.666;
+}
+.col-sm-6{
+    float: left;
+    width: 50%;
+}
+.col-sm-7{
+    float: left;
+    width:  58.333%;
+}
+.col-sm-8{
+    float: left;
+    width:  66.666%;
+}
+.col-sm-9{
+    float: left;
+    width:  75%;
+}
+.col-sm-10{
+    float: left;
+    width:  83.333%;
+}
+.col-sm-11 {
+    float: left;
+    width: 91.666%;
+}
+.col-sm-12{
+    float: left;
+    width: 100%;
+}
+
+.col-lg-1{
+    float: left;
+    width: 8.3%;
+}
+.col-lg-2{
+    float: left;
+    width: 16.666%;
+}
+.col-lg-3{
+    float: left;
+    width: 25%;
+}
+.col-lg-4{
+    float: left;
+    width: 33.333%;
+}
+.col-lg-5{
+    float: left;
+    width: 41.666;
+}
+.col-lg-6{
+    float: left;
+    width: 50%;
+}
+.col-lg-7{
+    float: left;
+    width:  58.333%;
+}
+.col-lg-8{
+    float: left;
+    width:  66.666%;
+}
+.col-lg-9{
+    float: left;
+    width:  75%;
+}
+.col-lg-10{
+    float: left;
+    width:  83.333%;
+}
+.col-lg-11 {
+    float: left;
+    width: 91.666%;
+}
+.col-lg-12{
+    float: left;
+    width: 100%;
+}
+
+.row:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .row { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .row { height: 1%; }
+  .row { display: block; }
+  /* close commented backslash hack */
+
+  .section {
+      padding: 10px;
+  }
+  .inner-section {
+    box-shadow: 0 0 10px  #777;
+  }
+

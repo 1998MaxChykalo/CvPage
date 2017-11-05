@@ -1,0 +1,22 @@
+
+.rows-with-name-date-and-description {
+    padding: 20px;
+    > p {
+        font-size: 2.5rem;
+        margin: 20px 0 0 1FF0px; ;
+    }
+}
+.name-date-description-container {
+    padding: 10px;
+    
+    .name {
+        font-size: 1.2rem;
+    }
+    .date {
+        color: #009688;
+        margin: 15px;
+    }
+    .row {
+        margin: 25px 0 25px 0;
+    }
+}

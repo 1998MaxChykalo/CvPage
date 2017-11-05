@@ -1,0 +1,73 @@
+hr {
+    width: 90%;
+    border: none;
+    border-top: 1px solid #999;
+
+}
+
+.image-container {
+    position: relative;
+    img {
+        width: 100%;
+    }
+    p.name {
+        position: absolute;
+        top: 75%;
+        left: 5%;
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+}
+.contact-info {
+    padding: 20px;
+    p {
+        margin-top: 0;
+        font-size: 1.1rem;
+    }
+    p:last-child {
+        margin: 0;
+    }
+
+}
+
+i.fa {
+    margin-right: 8px;
+    color: #009688;
+}
+.skills, .languages {
+    padding: 20px;
+    position: relative;
+    .skill {
+        margin-top: 20px;
+        .technology {
+            margin-bottom: 10px;
+        }
+    }
+    .rank-container {
+        width: 100%;
+        border-radius: 25px;
+        position: relative;
+        background: #ddd;
+        .rank-level
+        {
+            top: 0;
+            left: 0;
+            position: relative;
+            display: inline-block;
+            border-radius: 25px;
+            background: #009688;
+            min-height: 8%;
+            width: 80%;
+            p {
+                padding: 2px;
+                z-index: 10;
+                margin: 0;
+                position: relative;
+                color: #fff;
+                font-size: 0.9rem;
+                text-align: center;
+            }
+        }
+    }
+
+}
